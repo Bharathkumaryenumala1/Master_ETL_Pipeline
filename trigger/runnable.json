@@ -1,0 +1,24 @@
+{
+	"name": "runnable",
+	"properties": {
+		"annotations": [],
+		"runtimeState": "Started",
+		"pipelines": [
+			{
+				"pipelineReference": {
+					"referenceName": "pipeline1",
+					"type": "PipelineReference"
+				}
+			}
+		],
+		"type": "BlobEventsTrigger",
+		"typeProperties": {
+			"blobPathBeginsWith": "/inputcsv/blobs/",
+			"ignoreEmptyBlobs": true,
+			"scope": "/subscriptions/2713eab9-57be-48dc-809f-ddfb2bfada2d/resourceGroups/access/providers/Microsoft.Storage/storageAccounts/incremental1load",
+			"events": [
+				"Microsoft.Storage.BlobCreated"
+			]
+		}
+	}
+}
