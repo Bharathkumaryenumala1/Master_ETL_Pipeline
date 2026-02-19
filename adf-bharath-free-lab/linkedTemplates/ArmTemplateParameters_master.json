@@ -11,10 +11,16 @@
 		"AzureBlobStorage1_connectionString": {
 			"value": ""
 		},
-		"AzureBlobStorage2_connectionString": {
+		"AzureSqlDatabase1_password": {
 			"value": ""
 		},
-		"AzureSqlDatabase1_password": {
+		"AzureSqlDatabase2_password": {
+			"value": ""
+		},
+		"load2_password": {
+			"value": ""
+		},
+		"souceDB_password": {
 			"value": ""
 		},
 		"AzureSqlDatabase1_properties_typeProperties_server": {
@@ -26,11 +32,32 @@
 		"AzureSqlDatabase1_properties_typeProperties_userName": {
 			"value": "bharath"
 		},
-		"trigger2_properties_typeProperties_scope": {
-			"value": "/subscriptions/2713eab9-57be-48dc-809f-ddfb2bfada2d/resourceGroups/access/providers/Microsoft.Storage/storageAccounts/incremental1load"
+		"AzureSqlDatabase2_properties_typeProperties_server": {
+			"value": "bharath.database.windows.net"
 		},
-		"runnable_properties_typeProperties_scope": {
-			"value": "/subscriptions/2713eab9-57be-48dc-809f-ddfb2bfada2d/resourceGroups/access/providers/Microsoft.Storage/storageAccounts/incremental1load"
+		"AzureSqlDatabase2_properties_typeProperties_database": {
+			"value": "free-sql-db-7384896"
+		},
+		"AzureSqlDatabase2_properties_typeProperties_userName": {
+			"value": "bharath"
+		},
+		"load2_properties_typeProperties_server": {
+			"value": "bharath.database.windows.net"
+		},
+		"load2_properties_typeProperties_database": {
+			"value": "free-sql-db-7384896"
+		},
+		"load2_properties_typeProperties_userName": {
+			"value": "bharath"
+		},
+		"souceDB_properties_typeProperties_server": {
+			"value": "bharath.database.windows.net"
+		},
+		"souceDB_properties_typeProperties_database": {
+			"value": "free-sql-db-7384896"
+		},
+		"souceDB_properties_typeProperties_userName": {
+			"value": "bharath"
 		},
 		"containerUri": {
 			"value": ""

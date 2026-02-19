@@ -15,13 +15,21 @@
 			"type": "secureString",
 			"metadata": "Secure string for 'connectionString' of 'AzureBlobStorage1'"
 		},
-		"AzureBlobStorage2_connectionString": {
-			"type": "secureString",
-			"metadata": "Secure string for 'connectionString' of 'AzureBlobStorage2'"
-		},
 		"AzureSqlDatabase1_password": {
 			"type": "secureString",
 			"metadata": "Secure string for 'password' of 'AzureSqlDatabase1'"
+		},
+		"AzureSqlDatabase2_password": {
+			"type": "secureString",
+			"metadata": "Secure string for 'password' of 'AzureSqlDatabase2'"
+		},
+		"load2_password": {
+			"type": "secureString",
+			"metadata": "Secure string for 'password' of 'load2'"
+		},
+		"souceDB_password": {
+			"type": "secureString",
+			"metadata": "Secure string for 'password' of 'souceDB'"
 		},
 		"AzureSqlDatabase1_properties_typeProperties_server": {
 			"type": "string",
@@ -35,13 +43,41 @@
 			"type": "string",
 			"defaultValue": "bharath"
 		},
-		"trigger2_properties_typeProperties_scope": {
+		"AzureSqlDatabase2_properties_typeProperties_server": {
 			"type": "string",
-			"defaultValue": "/subscriptions/2713eab9-57be-48dc-809f-ddfb2bfada2d/resourceGroups/access/providers/Microsoft.Storage/storageAccounts/incremental1load"
+			"defaultValue": "bharath.database.windows.net"
 		},
-		"runnable_properties_typeProperties_scope": {
+		"AzureSqlDatabase2_properties_typeProperties_database": {
 			"type": "string",
-			"defaultValue": "/subscriptions/2713eab9-57be-48dc-809f-ddfb2bfada2d/resourceGroups/access/providers/Microsoft.Storage/storageAccounts/incremental1load"
+			"defaultValue": "free-sql-db-7384896"
+		},
+		"AzureSqlDatabase2_properties_typeProperties_userName": {
+			"type": "string",
+			"defaultValue": "bharath"
+		},
+		"load2_properties_typeProperties_server": {
+			"type": "string",
+			"defaultValue": "bharath.database.windows.net"
+		},
+		"load2_properties_typeProperties_database": {
+			"type": "string",
+			"defaultValue": "free-sql-db-7384896"
+		},
+		"load2_properties_typeProperties_userName": {
+			"type": "string",
+			"defaultValue": "bharath"
+		},
+		"souceDB_properties_typeProperties_server": {
+			"type": "string",
+			"defaultValue": "bharath.database.windows.net"
+		},
+		"souceDB_properties_typeProperties_database": {
+			"type": "string",
+			"defaultValue": "free-sql-db-7384896"
+		},
+		"souceDB_properties_typeProperties_userName": {
+			"type": "string",
+			"defaultValue": "bharath"
 		},
 		"containerUri": {
 			"type": "string",
@@ -76,11 +112,17 @@
 					"AzureBlobStorage1_connectionString": {
 						"value": "[parameters('AzureBlobStorage1_connectionString')]"
 					},
-					"AzureBlobStorage2_connectionString": {
-						"value": "[parameters('AzureBlobStorage2_connectionString')]"
-					},
 					"AzureSqlDatabase1_password": {
 						"value": "[parameters('AzureSqlDatabase1_password')]"
+					},
+					"AzureSqlDatabase2_password": {
+						"value": "[parameters('AzureSqlDatabase2_password')]"
+					},
+					"load2_password": {
+						"value": "[parameters('load2_password')]"
+					},
+					"souceDB_password": {
+						"value": "[parameters('souceDB_password')]"
 					},
 					"AzureSqlDatabase1_properties_typeProperties_server": {
 						"value": "[parameters('AzureSqlDatabase1_properties_typeProperties_server')]"
@@ -91,11 +133,32 @@
 					"AzureSqlDatabase1_properties_typeProperties_userName": {
 						"value": "[parameters('AzureSqlDatabase1_properties_typeProperties_userName')]"
 					},
-					"trigger2_properties_typeProperties_scope": {
-						"value": "[parameters('trigger2_properties_typeProperties_scope')]"
+					"AzureSqlDatabase2_properties_typeProperties_server": {
+						"value": "[parameters('AzureSqlDatabase2_properties_typeProperties_server')]"
 					},
-					"runnable_properties_typeProperties_scope": {
-						"value": "[parameters('runnable_properties_typeProperties_scope')]"
+					"AzureSqlDatabase2_properties_typeProperties_database": {
+						"value": "[parameters('AzureSqlDatabase2_properties_typeProperties_database')]"
+					},
+					"AzureSqlDatabase2_properties_typeProperties_userName": {
+						"value": "[parameters('AzureSqlDatabase2_properties_typeProperties_userName')]"
+					},
+					"load2_properties_typeProperties_server": {
+						"value": "[parameters('load2_properties_typeProperties_server')]"
+					},
+					"load2_properties_typeProperties_database": {
+						"value": "[parameters('load2_properties_typeProperties_database')]"
+					},
+					"load2_properties_typeProperties_userName": {
+						"value": "[parameters('load2_properties_typeProperties_userName')]"
+					},
+					"souceDB_properties_typeProperties_server": {
+						"value": "[parameters('souceDB_properties_typeProperties_server')]"
+					},
+					"souceDB_properties_typeProperties_database": {
+						"value": "[parameters('souceDB_properties_typeProperties_database')]"
+					},
+					"souceDB_properties_typeProperties_userName": {
+						"value": "[parameters('souceDB_properties_typeProperties_userName')]"
 					}
 				}
 			},
