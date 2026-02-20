@@ -11,6 +11,12 @@
 		"AzureBlobStorage3_connectionString": {
 			"value": ""
 		},
+		"AzureBlobStorage4_connectionString": {
+			"value": ""
+		},
+		"trigger1_properties_typeProperties_scope": {
+			"value": "/subscriptions/2713eab9-57be-48dc-809f-ddfb2bfada2d/resourceGroups/storageaccount/providers/Microsoft.Storage/storageAccounts/accountfortriggers"
+		},
 		"containerUri": {
 			"value": ""
 		},
