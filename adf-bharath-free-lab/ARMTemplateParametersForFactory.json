@@ -4,6 +4,24 @@
 	"parameters": {
 		"factoryName": {
 			"value": "adf-bharath-free-lab"
+		},
+		"AzureDataLakeStorage1_accountKey": {
+			"value": ""
+		},
+		"AzureSqlDatabase1_password": {
+			"value": ""
+		},
+		"AzureDataLakeStorage1_properties_typeProperties_url": {
+			"value": "https://uniqueone.dfs.core.windows.net/"
+		},
+		"AzureSqlDatabase1_properties_typeProperties_server": {
+			"value": "bharath.database.windows.net"
+		},
+		"AzureSqlDatabase1_properties_typeProperties_database": {
+			"value": "free-sql-db-9728078"
+		},
+		"AzureSqlDatabase1_properties_typeProperties_userName": {
+			"value": "bharath"
 		}
 	}
 }

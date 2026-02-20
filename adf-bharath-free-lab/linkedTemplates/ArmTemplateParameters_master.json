@@ -5,58 +5,22 @@
 		"factoryName": {
 			"value": "adf-bharath-free-lab"
 		},
-		"AzureBlobStorage_connectionString": {
-			"value": ""
-		},
-		"AzureBlobStorage1_connectionString": {
+		"AzureDataLakeStorage1_accountKey": {
 			"value": ""
 		},
 		"AzureSqlDatabase1_password": {
 			"value": ""
 		},
-		"AzureSqlDatabase2_password": {
-			"value": ""
-		},
-		"load2_password": {
-			"value": ""
-		},
-		"souceDB_password": {
-			"value": ""
+		"AzureDataLakeStorage1_properties_typeProperties_url": {
+			"value": "https://uniqueone.dfs.core.windows.net/"
 		},
 		"AzureSqlDatabase1_properties_typeProperties_server": {
 			"value": "bharath.database.windows.net"
 		},
 		"AzureSqlDatabase1_properties_typeProperties_database": {
-			"value": "free-sql-db-3828207"
+			"value": "free-sql-db-9728078"
 		},
 		"AzureSqlDatabase1_properties_typeProperties_userName": {
-			"value": "bharath"
-		},
-		"AzureSqlDatabase2_properties_typeProperties_server": {
-			"value": "bharath.database.windows.net"
-		},
-		"AzureSqlDatabase2_properties_typeProperties_database": {
-			"value": "free-sql-db-7384896"
-		},
-		"AzureSqlDatabase2_properties_typeProperties_userName": {
-			"value": "bharath"
-		},
-		"load2_properties_typeProperties_server": {
-			"value": "bharath.database.windows.net"
-		},
-		"load2_properties_typeProperties_database": {
-			"value": "free-sql-db-7384896"
-		},
-		"load2_properties_typeProperties_userName": {
-			"value": "bharath"
-		},
-		"souceDB_properties_typeProperties_server": {
-			"value": "bharath.database.windows.net"
-		},
-		"souceDB_properties_typeProperties_database": {
-			"value": "free-sql-db-7384896"
-		},
-		"souceDB_properties_typeProperties_userName": {
 			"value": "bharath"
 		},
 		"containerUri": {
