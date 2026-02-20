@@ -8,32 +8,8 @@
 		"AzureBlobStorage1_connectionString": {
 			"value": ""
 		},
-		"AzureBlobStorage2_connectionString": {
-			"value": ""
-		},
 		"AzureBlobStorage3_connectionString": {
 			"value": ""
-		},
-		"AzureDataLakeStorage1_accountKey": {
-			"value": ""
-		},
-		"AzureSqlDatabase1_password": {
-			"value": ""
-		},
-		"AzureDataLakeStorage1_properties_typeProperties_url": {
-			"value": "https://uniqueone.dfs.core.windows.net/"
-		},
-		"AzureSqlDatabase1_properties_typeProperties_server": {
-			"value": "bharath.database.windows.net"
-		},
-		"AzureSqlDatabase1_properties_typeProperties_database": {
-			"value": "free-sql-db-9728078"
-		},
-		"AzureSqlDatabase1_properties_typeProperties_userName": {
-			"value": "bharath"
-		},
-		"trigger1_properties_typeProperties_scope": {
-			"value": "/subscriptions/2713eab9-57be-48dc-809f-ddfb2bfada2d/resourceGroups/access/providers/Microsoft.Storage/storageAccounts/secondexample123"
 		},
 		"containerUri": {
 			"value": ""
